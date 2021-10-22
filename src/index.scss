@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+// Utilities
+@import './styles/utilities/global';
+@import './styles/utilities/variables';
+@import './styles/utilities/animations';
+@import './styles/utilities/mixins';
+@import './styles/utilities/typography';
+
+
+// Components
+@import 'styles/components/templates/homepage';
